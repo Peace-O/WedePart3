@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for Membership — Kanaverse Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <p><strong>Kanaverse Club</strong></p>
+    <nav>
+      <ul>
+           <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="header-cta"><a href="enquiry.html">Apply</a></p>
+  </header>
+
+  <main>
+
+    <section id="page-intro">
+      <h1>Apply for Membership</h1>
+      <p>Tell us a little about yourself. Applications are reviewed by our membership team within 3–5 working days — you'll hear from us by email either way.</p>
+    </section>
+
+    <!-- Membership application form. Client-side validation (JavaScript)
+         will be added in a later phase; for now this uses HTML5's
+         built-in required/type validation. -->
+    <section id="application-form">
+      <form action="#" method="post">
+
+        <p>
+          <label for="name">Full name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="phone">Phone</label><br>
+          <input type="tel" id="phone" name="phone" required>
+        </p>
+
+        <p>
+          <label for="dob">Date of birth</label><br>
+          <input type="date" id="dob" name="dob" required>
+        </p>
+
+        <p>
+          <input type="checkbox" id="confirm" name="confirm" required>
+          <label for="confirm">I confirm that I am 21 years of age or older and legally able to hold membership at a private cannabis social club in South Africa.</label>
+        </p>
+
+        <p>
+          <label for="interest">Area of interest</label><br>
+          <select id="interest" name="interest" required>
+            <option value="">Select an option</option>
+            <option value="flower">Flower</option>
+            <option value="edibles">Edibles</option>
+            <option value="wellness">Wellness &amp; CBD</option>
+            <option value="events">Events &amp; community</option>
+            <option value="growing">Home growing</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Anything you'd like us to know? (optional)</label><br>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Submit application</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Kanaverse Club</strong></p>
+    <p>Kanaverse Club is a private, members-only social club operating under South African legislation permitting private cannabis cultivation, possession and use. Membership is restricted to verified adults aged 21 and older. No products are sold or distributed to non-members, and nothing on this site constitutes a retail offer to the public.</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Apply for Membership</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p>Rosebank, Johannesburg &middot; info@canaverseclub.co.za</p>
+    <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    <p>&copy; 2026 Kanaverse Club. All rights reserved. 21+ private members' club — Gauteng, South Africa.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

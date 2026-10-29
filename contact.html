@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kanaverse Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <p><strong>Kanaverse Club</strong></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="header-cta"><a href="enquiry.html">Apply</a></p>
+  </header>
+
+  <main>
+
+    <section id="page-intro">
+      <h1>We're happy to answer questions</h1>
+      <p>Whether you're curious about membership, events, or how the club operates legally — reach out. General enquiries only; membership applications go through our dedicated form.</p>
+    </section>
+
+    <!-- Two locations, each with an embedded map -->
+    <section id="locations">
+      <div>
+        <img src="images/bud4.avif" alt="Rosebank Clubhouse" class="location-image">
+        <h2>Rosebank Clubhouse</h2>
+        <iframe title="Map to Rosebank clubhouse" width="100%" height="250" frameborder="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Rosebank,Johannesburg&output=embed"></iframe>
+        <p>The Zone, Oxford Road, Rosebank, Johannesburg</p>
+        <p>Tue–Sat, 12:00–20:00 (members only)</p>
+      </div>
+      <div>
+        <img src="images/buds5.avif" alt="Braamfontein Annex" class="location-image">
+        <h2>Braamfontein Annex</h2>
+        <iframe title="Map to Braamfontein annex" width="100%" height="250" frameborder="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Braamfontein,Johannesburg&output=embed"></iframe>
+        <p>De Korte Street, Braamfontein, Johannesburg</p>
+        <p>Thu–Sat, 14:00–21:00 (events &amp; workshops)</p>
+      </div>
+    </section>
+
+    <!-- General contact form -->
+    <section id="contact-form">
+      <h2>Send us a message</h2>
+      <form action="#" method="post">
+
+        <p>
+          <label for="c-name">Name</label><br>
+          <input type="text" id="c-name" name="name" required>
+        </p>
+
+        <p>
+          <label for="c-email">Email</label><br>
+          <input type="email" id="c-email" name="email" required>
+        </p>
+
+        <p>
+          <label for="c-subject">Subject</label><br>
+          <select id="c-subject" name="subject" required>
+            <option value="">Select a subject</option>
+            <option value="membership">Membership question</option>
+            <option value="events">Events &amp; workshops</option>
+            <option value="press">Press / media</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="c-message">Message</label><br>
+          <textarea id="c-message" name="message" rows="5" required></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Send message</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Kanaverse Club</strong></p>
+    <p>Kanaverse Club is a private, members-only social club operating under South African legislation permitting private cannabis cultivation, possession and use. Membership is restricted to verified adults aged 21 and older. No products are sold or distributed to non-members, and nothing on this site constitutes a retail offer to the public.</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Apply for Membership</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p>Rosebank, Johannesburg &middot; info@canaverseclub.co.za</p>
+    <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    <p>&copy; 2026 Kanaverse Club. All rights reserved. 21+ private members' club — Gauteng, South Africa.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
